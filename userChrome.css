@@ -1,0 +1,27 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+@media (prefers-color-scheme: light) {
+  #TabsToolbar:not(:-moz-lwtheme) {
+    -moz-appearance: -moz-mac-vibrant-titlebar-light !important;
+    -moz-font-smoothing-background-color: -moz-mac-vibrant-titlebar-light !important;
+    color: #18191a !important;
+  }
+}
+
+#TabsToolbar .titlebar-spacer, #TabsToolbar #alltabs-button, #TabsToolbar #new-tab-button, #TabsToolbar #tabs-newtab-button {
+  display: none;
+}
+
+/*
+#titlebar #alltabs-button {
+  display: none !important;
+}
+
+#titlebar .titlebar-spacer[type="pre-tabs"] {
+  width: 10px !important;
+}
+
+#titlebar .titlebar-spacer[type="post-tabs"] {
+  width: 0 !important;
+}
+*/

@@ -1,0 +1,5 @@
+@-moz-document url-prefix("chrome://devtools") {
+  :root[platform="mac"] {
+	  --monospace-font-family: "Hack FC Ligatured CCG", Hack, Menlo, monospace !important;
+	}
+}
