@@ -8,8 +8,12 @@
   }
 }
 
-#TabsToolbar .titlebar-spacer, #TabsToolbar #alltabs-button, #TabsToolbar #new-tab-button, #TabsToolbar #tabs-newtab-button {
+#TabsToolbar .titlebar-spacer[type="pre-tabs"], #TabsToolbar #alltabs-button, #TabsToolbar #new-tab-button, #TabsToolbar #tabs-newtab-button {
   display: none;
+}
+
+#TabsToolbar .titlebar-spacer[type="post-tabs"] {
+  width: 2px !important;
 }
 
 /*
